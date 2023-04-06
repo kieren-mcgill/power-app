@@ -1,0 +1,17 @@
+:root {
+    --power-percentage: 10%;
+}
+
+.bar-container {
+    border: black solid 2px;
+    border-radius: 5px;
+    height: 10px;
+    width: 300px;
+}
+
+.power-bar {
+    background-color: red;
+    border-radius: 5px;
+    height: 100%;
+    width: var(--power-percentage);
+}
